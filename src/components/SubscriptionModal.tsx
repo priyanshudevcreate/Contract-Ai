@@ -35,7 +35,7 @@ export default function SubscriptionModal({ isOpen, onClose, currentPlan = 'free
       name: 'Free',
       icon: <FileText className="w-6 h-6" />,
       price: { monthly: 0, yearly: 0 },
-      description: 'Perfect for trying out ContractGPT',
+      description: 'Perfect for trying out Contract AI',
       features: [
         '3 contract analyses per month',
         'Basic risk detection',
@@ -137,7 +137,7 @@ export default function SubscriptionModal({ isOpen, onClose, currentPlan = 'free
   const handleUpgrade = (planId: string) => {
     if (planId === 'enterprise') {
       // Handle contact sales
-      window.open('mailto:23eg107d54@anurag.edu.in?subject=Enterprise Plan Inquiry - ContractGPT', '_blank');
+      window.open('mailto:23eg107d54@anurag.edu.in?subject=Enterprise Plan Inquiry - Contract AI', '_blank');
     } else {
       // Handle subscription upgrade - show payment modal
       const plan = plans.find(p => p.id === planId);

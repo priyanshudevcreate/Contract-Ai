@@ -168,7 +168,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
           <div className="text-center">
 
             <h1 className="font-display text-4xl sm:text-5xl lg:text-8xl font-bold mb-6 leading-none transform hover:scale-105 transition-all duration-500 cursor-default tracking-tighter">
-              <span className="block hover:text-blue-100 transition-colors duration-300 font-bold text-white drop-shadow-2xl">ContractGPT</span>
+              <span className="block hover:text-blue-100 transition-colors duration-300 font-bold text-white drop-shadow-2xl">Contract AI</span>
               <span className="block bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300 bg-clip-text text-transparent hover:from-purple-300 hover:via-pink-300 hover:to-cyan-300 transition-all duration-700 font-medium text-5xl sm:text-6xl lg:text-7xl mt-2">
                 Smart AI for Contracts
               </span>
@@ -207,7 +207,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl lg:text-5xl font-black text-gray-900 mb-6 tracking-tight">
-              Meet ContractGPT – Your AI Legal Assistant
+              Meet Contract AI – Your AI Legal Assistant
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Transform complex legal documents into clear, actionable insights in seconds
@@ -274,7 +274,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
                       </p>
                     </div>
                     <div className="bg-green-50 rounded-lg p-4 shadow-inner">
-                      <p className="text-gray-600 mb-2">ContractGPT Explanation:</p>
+                      <p className="text-gray-600 mb-2">Contract AI Explanation:</p>
                       <p className="text-gray-900">
                         <strong>In simple terms:</strong> The owner is letting you use their property temporarily. You'll pay the agreed amount and follow the rules.
                       </p>
@@ -360,7 +360,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
                 {activeFeature === 4 && (
                   <div className="space-y-4">
                     <div className="bg-white rounded-lg p-4 shadow-inner">
-                      <p className="text-gray-600 mb-2">Ask ContractGPT:</p>
+                      <p className="text-gray-600 mb-2">Ask Contract AI:</p>
                       <div className="space-y-3">
                         <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-3 rounded-lg">
                           <p className="text-sm text-blue-800">
@@ -369,7 +369,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
                         </div>
                         <div className="bg-gray-50 p-3 rounded-lg">
                           <p className="text-sm text-gray-800">
-                            <strong>ContractGPT:</strong> "According to Section 8.2, early termination requires 30 days written notice and you'll forfeit your security deposit but won't face additional penalties."
+                            <strong>Contract AI:</strong> "According to Section 8.2, early termination requires 30 days written notice and you'll forfeit your security deposit but won't face additional penalties."
                           </p>
                         </div>
                         <div className="flex items-center space-x-2">
@@ -680,7 +680,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
               Frequently Asked Questions
             </h2>
             <p className="font-heading text-xl text-gray-600 max-w-3xl mx-auto font-light">
-              Everything you need to know about ContractGPT and our AI-powered contract analysis
+              Everything you need to know about Contract AI and our AI-powered contract analysis
             </p>
           </div>
 
@@ -689,10 +689,10 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
               <div className="p-6">
                 <h3 className="font-heading text-lg font-bold text-gray-900 mb-3">
-                  How accurate is ContractGPT's risk analysis?
+                  How accurate is Contract AI's risk analysis?
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  ContractGPT uses advanced AI models trained on thousands of legal documents to provide highly accurate risk assessments. Our 1-100 scoring system identifies potential issues with 95%+ accuracy, helping you make informed decisions about your contracts.
+                  Contract AI uses advanced AI models trained on thousands of legal documents to provide highly accurate risk assessments. Our 1-100 scoring system identifies potential issues with 95%+ accuracy, helping you make informed decisions about your contracts.
                 </p>
               </div>
             </div>
@@ -701,7 +701,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
               <div className="p-6">
                 <h3 className="font-heading text-lg font-bold text-gray-900 mb-3">
-                  What file formats does ContractGPT support?
+                  What file formats does Contract AI support?
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
                   We support PDF and DOCX (Microsoft Word) files up to 10MB in size. Our AI can extract and analyze text from both formats, including scanned documents with OCR technology.
@@ -737,10 +737,10 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
               <div className="p-6">
                 <h3 className="font-heading text-lg font-bold text-gray-900 mb-3">
-                  Can ContractGPT replace a lawyer?
+                  Can Contract AI replace a lawyer?
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  ContractGPT is designed to assist and educate, not replace legal professionals. While our AI provides valuable insights and risk analysis, we always recommend consulting with a qualified lawyer for complex legal matters or high-stakes contracts.
+                  Contract AI is designed to assist and educate, not replace legal professionals. While our AI provides valuable insights and risk analysis, we always recommend consulting with a qualified lawyer for complex legal matters or high-stakes contracts.
                 </p>
               </div>
             </div>
@@ -749,7 +749,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
               <div className="p-6">
                 <h3 className="font-heading text-lg font-bold text-gray-900 mb-3">
-                  What types of contracts can ContractGPT analyze?
+                  What types of contracts can Contract AI analyze?
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
                   We can analyze virtually any type of contract including employment agreements, NDAs, service contracts, freelance agreements, rental agreements, software licenses, and more. Our AI is trained on diverse legal documents across multiple industries.
@@ -776,7 +776,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
                   Do you offer refunds if I'm not satisfied?
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  Yes! We offer a 30-day money-back guarantee on all paid plans. If you're not completely satisfied with ContractGPT, contact our support team at 23eg107d54@anurag.edu.in for a full refund within 30 days of purchase.
+                  Yes! We offer a 30-day money-back guarantee on all paid plans. If you're not completely satisfied with Contract AI, contact our support team at 23eg107d54@anurag.edu.in for a full refund within 30 days of purchase.
                 </p>
               </div>
             </div>
@@ -797,10 +797,10 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
               <div className="p-6">
                 <h3 className="font-heading text-lg font-bold text-gray-900 mb-3">
-                  What makes ContractGPT different from other legal AI tools?
+                  What makes Contract AI different from other legal AI tools?
                 </h3>
                 <p className="font-body text-gray-600 leading-relaxed">
-                  ContractGPT focuses specifically on contract analysis with our unique 1-100 risk scoring system. We provide plain-English explanations, interactive Q&A, and detailed category breakdowns. Plus, we're built by Team Ghost Ops with deep expertise in both AI and legal technology.
+                  Contract AI focuses specifically on contract analysis with our unique 1-100 risk scoring system. We provide plain-English explanations, interactive Q&A, and detailed category breakdowns. Plus, we're built by Team Ghost Ops with deep expertise in both AI and legal technology.
                 </p>
               </div>
             </div>
@@ -813,10 +813,10 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
                 Still have questions?
               </h3>
               <p className="font-body text-gray-600 mb-6">
-                Our support team is here to help you get the most out of ContractGPT
+                Our support team is here to help you get the most out of Contract AI
               </p>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=23eg107d54@anurag.edu.in&su=ContractGPT%20Support%20Inquiry" target="_blank" rel="noopener noreferrer"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=23eg107d54@anurag.edu.in&su=Contract AI%20Support%20Inquiry" target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-heading font-bold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105"
               >
                 <MessageSquare className="w-5 h-5 mr-2" />
@@ -837,7 +837,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center mr-3">
                   <Brain className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">ContractGPT</span>
+                <span className="text-xl font-bold">Contract AI</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Making legal documents understandable for everyone.
@@ -874,7 +874,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div>
               <h3 className="text-lg font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=23eg107d54@anurag.edu.in&su=ContractGPT%20Contact%20Inquiry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=23eg107d54@anurag.edu.in&su=Contract AI%20Contact%20Inquiry" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-200">Contact</a></li>
               </ul>
             </div>
 
@@ -889,7 +889,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
-            <p>© {new Date().getFullYear()} ContractGPT. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Contract AI. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -916,8 +916,8 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
 
             {/* Video Header */}
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6">
-              <h3 className="text-2xl font-bold mb-2">ContractGPT Demo</h3>
-              <p className="text-blue-100">See how ContractGPT analyzes contracts in real-time</p>
+              <h3 className="text-2xl font-bold mb-2">Contract AI Demo</h3>
+              <p className="text-blue-100">See how Contract AI analyzes contracts in real-time</p>
             </div>
 
             {/* Video Container */}
@@ -937,7 +937,7 @@ export default function Home({ isAuthenticated, onSignIn, onSignOut, onUploadCli
             <div className="p-6 bg-gray-50">
               <div className="flex flex-col sm:flex-row gap-4 justify-between items-center">
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Ready to try ContractGPT?</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">Ready to try Contract AI?</h4>
                   <p className="text-gray-600 text-sm">Upload your first contract and see the magic happen</p>
                 </div>
                 <div className="flex gap-3">

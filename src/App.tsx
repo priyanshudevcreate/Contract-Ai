@@ -17,7 +17,7 @@ function AppContent() {
 
   // Show loading spinner while initializing (shouldn't happen in demo mode)
   if (isLoading) {
-    return <LoadingSpinner message="Loading ContractGPT..." />;
+    return <LoadingSpinner message="Loading Contract AI..." />;
   }
   
   // Redirect to dashboard if authenticated

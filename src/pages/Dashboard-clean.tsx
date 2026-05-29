@@ -152,7 +152,7 @@ export default function Dashboard({ onSignOut, onUploadClick }: DashboardProps) 
       createdDate: new Date(now.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString(),
       lastModified: new Date(now.getTime() - 2 * 60 * 60 * 1000).toISOString(),
       status: 'Draft',
-      generatedBy: 'ContractGPT AI'
+      generatedBy: 'Contract AI AI'
     },
     {
       id: 2,
@@ -161,7 +161,7 @@ export default function Dashboard({ onSignOut, onUploadClick }: DashboardProps) 
       createdDate: new Date(now.getTime() - 3 * 24 * 60 * 60 * 1000).toISOString(),
       lastModified: new Date(now.getTime() - 1 * 24 * 60 * 60 * 1000).toISOString(),
       status: 'Completed',
-      generatedBy: 'ContractGPT AI'
+      generatedBy: 'Contract AI AI'
     }
   ];
 
@@ -331,7 +331,7 @@ export default function Dashboard({ onSignOut, onUploadClick }: DashboardProps) 
             <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center mr-3">
               <FileText className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">ContractGPT</span>
+            <span className="text-xl font-bold text-gray-900">Contract AI</span>
           </div>
         </div>
         

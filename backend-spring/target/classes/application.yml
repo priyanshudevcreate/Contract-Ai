@@ -1,15 +1,9 @@
 spring:
   application:
     name: ContractGPT-Backend
-  datasource:
-    url: jdbc:postgresql://localhost:5432/contractgpt
-    username: postgres
-    password: 9134
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/contractgpt
 
   servlet:
     multipart:

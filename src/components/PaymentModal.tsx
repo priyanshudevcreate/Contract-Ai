@@ -26,7 +26,7 @@ export default function PaymentModal({ isOpen, onClose, planName, amount, billin
   };
 
   const handleUPIPayment = () => {
-    const upiUrl = `upi://pay?pa=${upiId}&pn=${payeeName}&am=${amount}&cu=INR&tn=ContractGPT ${planName} Plan - ${billingCycle}`;
+    const upiUrl = `upi://pay?pa=${upiId}&pn=${payeeName}&am=${amount}&cu=INR&tn=Contract AI ${planName} Plan - ${billingCycle}`;
     window.location.href = upiUrl;
   };
 

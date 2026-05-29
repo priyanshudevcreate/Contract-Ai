@@ -25,7 +25,7 @@ class FileService {
       formData.append('contract', file);
       
       // Get auth token from localStorage (if available)
-      const token = localStorage.getItem('contractgpt_token');
+      const token = localStorage.getItem('contractai_token');
       
       // Upload to backend API
       const response = await fetch(this.uploadEndpoint, {
@@ -77,11 +77,11 @@ class FileService {
     try {
       // For demo purposes, we'll store in localStorage
       // In real implementation, this would write to the actual data.json file
-      const existingData = localStorage.getItem('contractgpt_uploaded_files');
+      const existingData = localStorage.getItem('contractai_uploaded_files');
       let files: UploadedFile[] = existingData ? JSON.parse(existingData) : [];
       
       files.push(uploadedFile);
-      localStorage.setItem('contractgpt_uploaded_files', JSON.stringify(files));
+      localStorage.setItem('contractai_uploaded_files', JSON.stringify(files));
       
       console.log('Updated data.json with new file:', uploadedFile);
     } catch (error) {
@@ -92,7 +92,7 @@ class FileService {
   // Get uploaded files from data.json (fallback to localStorage)
   getUploadedFiles(): UploadedFile[] {
     try {
-      const data = localStorage.getItem('contractgpt_uploaded_files');
+      const data = localStorage.getItem('contractai_uploaded_files');
       return data ? JSON.parse(data) : [];
     } catch (error) {
       console.error('Error reading uploaded files:', error);
@@ -103,7 +103,7 @@ class FileService {
   // Fetch contracts from backend API
   async fetchContracts(): Promise<UploadedFile[]> {
     try {
-      const token = localStorage.getItem('contractgpt_token');
+      const token = localStorage.getItem('contractai_token');
       const response = await fetch(this.contractsEndpoint, {
         headers: {
           ...(token && { 'Authorization': `Bearer ${token}` })
@@ -233,7 +233,7 @@ class FileService {
           files[fileIndex].analysisData = analysisData;
         }
         
-        localStorage.setItem('contractgpt_uploaded_files', JSON.stringify(files));
+        localStorage.setItem('contractai_uploaded_files', JSON.stringify(files));
         console.log(`Updated file status: ${fileId} -> ${status}`);
       }
     } catch (error) {
@@ -245,7 +245,7 @@ class FileService {
   private async saveAnalysisResults(fileId: string, results: any): Promise<void> {
     try {
       // In real implementation, this would write to the actual jsonweb.json file
-      localStorage.setItem(`contractgpt_analysis_${fileId}`, JSON.stringify(results));
+      localStorage.setItem(`contractai_analysis_${fileId}`, JSON.stringify(results));
       console.log('Analysis results saved to jsonweb.json (simulated)');
     } catch (error) {
       console.error('Error saving analysis results:', error);
@@ -256,7 +256,7 @@ class FileService {
   getAnalysisResults(fileId?: string): any {
     try {
       if (fileId) {
-        const data = localStorage.getItem(`contractgpt_analysis_${fileId}`);
+        const data = localStorage.getItem(`contractai_analysis_${fileId}`);
         return data ? JSON.parse(data) : null;
       } else {
         // Get latest analysis results
