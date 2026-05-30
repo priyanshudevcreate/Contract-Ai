@@ -67,6 +67,9 @@ temp/
 # Backend uploads
 backend/uploads/
 
+# Maven build output
+backend-spring/target/
+
 # OS files
 Thumbs.db
 ehthumbs.db
